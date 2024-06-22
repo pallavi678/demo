@@ -1,0 +1,51 @@
+.log{
+    
+   width:400px; 
+   margin-left: 20%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 40px;
+    text-align: center;
+    background-color: #004225;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#7ABA78;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.log h1{
+    font-size: 70px;
+    color:#F5F5DC;
+}
+.tog{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+.log input{
+    background-color: transparent;
+    border-color: #7ABA78;
+    border-radius: 5px;
+}
+.btn{
+    height: 40px;
+    width:100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color:#F5F5DC;
+}
+@media screen and (max-width:400px) {
+    .log{
+     width:150px;
+     height: 150px;
+     font-size: 10px;
+     }
+     .log h1{
+        font-size: 20px;
+     }
+}

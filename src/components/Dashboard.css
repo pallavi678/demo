@@ -1,0 +1,27 @@
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-cont div{
+    width: 600px;
+    height:400px;
+    
+}
+.bar{
+    height: 900px;
+}
+@media screen and (max-width:999px){
+    .main-cont div{
+        width: 900px;
+        height:400px;
+      
+    }
+}
+@media screen and (max-width:299px){
+    .main-cont div{
+        width: 900px;
+        height:600px;
+      
+    }
+}
